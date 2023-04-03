@@ -366,7 +366,7 @@ def method():
                 break
             else:
                 continue
-        loop += 1    
+        loop += 1
       except Exception as e: time.sleep(10)
 
     if m=='2':
@@ -514,7 +514,7 @@ def andom():
                 break
             else:
                 continue
-        loop += 1    
+        loop += 1
       except Exception as e: time.sleep(10)
 
       
