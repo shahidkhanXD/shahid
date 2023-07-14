@@ -1,10 +1,9 @@
-import os, platform
-try:
-    import requests
-except:
-    os.system('pip install requests')
-import requests
-bit = platform.architecture()[0]
-if bit == '64bit':
-    from shahid import main
-    main()
+import os
+ 
+os.system('git pull')
+ 
+os.system('termux-setup-storage')
+ 
+import shahid
+ 
+shahid.main()
